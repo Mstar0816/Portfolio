@@ -1,0 +1,144 @@
+.home {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  .home__text-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home__text-wrapper h1 {
+    color: var(--yellow-theme-main-color);
+    margin: 0px;
+    font-weight: 500;
+    font-size: 8rem;
+    line-height: 10rem;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typeEffect 2.5s steps(30, end);
+  }
+  
+  .home__contact-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: var(--yellow-theme-main-color);
+  
+  }
+  
+  .home__contact-me button {
+    cursor: pointer;
+    padding: 10px 70px;
+    font-size: 2rem;
+    background: transparent;
+    color: var(--yellow-theme-main-color);
+    border: 1.5px solid var(--yellow-theme-main-color);
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .home__text-wrapper h1 {
+      font-size: 3rem;
+      line-height: 5rem;
+    }
+  }
+  
+  @media only screen and (min-width: 551px) and (max-width:768px) {
+    .home__text-wrapper h1 {
+      font-size: 4rem;
+      line-height: 6rem;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width:990px) {
+    .home__text-wrapper h1 {
+      font-size: 6rem;
+      line-height: 8rem;
+    }
+  
+  }
+  
+  @keyframes typeEffect {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  body {
+    background: #e0e5ec;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+  }
+  
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .icon-hover-effect:hover {
+    transform: scale(1.2) rotate(360deg);
+    opacity: 0.8;
+    transition: transform 0.7s ease;
+  }
+  
+  .grid-move-up {
+    transform: translateY(-100px);
+    transition: transform 0.5s ease;
+  }
+  
+  .typography-fade-in {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  .typography-fade-out {
+    animation: fadeOut 0.5s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
