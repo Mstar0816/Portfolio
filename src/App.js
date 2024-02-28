@@ -18,7 +18,6 @@ function App() {
         <Route path="/Resume" element={<Resume/ >}></Route>
         <Route path="/Portfolio" element={<Portfolio/ >}></Route>
         <Route path="/Contact" element={<Contact/ >}></Route>
-        {/* <Route path="/Skill" element={<Skill/ >}></Route> */}
       </Routes>
     </BrowserRouter>
     

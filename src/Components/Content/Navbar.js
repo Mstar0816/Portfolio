@@ -71,7 +71,6 @@ export default function SearchAppBar() {
     setAnchorEl(event.currentTarget);
   };
 
-  
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -95,13 +94,13 @@ export default function SearchAppBar() {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
             <stack style={{gap: '50px'}}>
-              <img src={logo} alt="logo(2)" style={{ height: '40px', width: '40px', marginTop:'15px', marginRight:'20px'}}/>
-              <Button variant='text' style={{textDecoration: 'none', marginBottom: '25px'}}><Link to ="/">Introduction</Link></Button>
-              <Button variant='text' style={{textDecoration: 'none', marginBottom: '25px'}}><Link to ="/Career">Career</Link></Button>
-              <Button variant='text' style={{textDecoration: 'none', marginBottom: '25px'}}><Link to ="/Skill">Skill</Link></Button>
-              <Button variant='text' style={{textDecoration: 'none', marginBottom: '25px'}}><Link to ="/Resume">Resume</Link></Button>
-              <Button variant='text' style={{textDecoration: 'none', marginBottom: '25px'}}><Link to ="/Portfolio">Portfolio</Link></Button>
-              <Button variant='text' style={{textDecoration: 'none', marginBottom: '25px'}}><Link to ="/Contact">Contact</Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/"><img src={logo} alt="logo(2)" style={{ height: '40px', width: '40px'}}/></Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/">Introduction</Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Career">Career</Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Skill">Skill</Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Resume">Resume</Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Portfolio">Portfolio</Link></Button>
+              <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Contact">Contact</Link></Button>
             </stack>
           </Typography>
           <Search>

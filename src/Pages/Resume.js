@@ -60,8 +60,8 @@ const Resume =()=> {
                     </Card>
                 </div>
                 <CardActions>
-                    <Button href={resume} target="_blank" rel="noreferrer" variant="outlined">SHOW</Button>
-                    <Button variant="outlined">aaaa</Button>
+                    <Button href={resume} target="_blank" rel="noreferrer" variant="outlined">SHOW RESUME</Button>
+                    {/* <Button href={resume} target="_blank" rel="noreferrer" variant="outlined">aaaa</Button> */}
                 </CardActions>
             </Card>
         </center>
