@@ -1,4 +1,5 @@
 import React from "react"
+// import { Link } from "react-router-dom";
 import Navbar from "../Components/Content/Navbar";
 import resume from "../resume.pdf";
 import Card from '@mui/material/Card';
@@ -9,7 +10,7 @@ import CardContent from '@mui/material/CardContent';
 import { CardActionArea } from '@mui/material';
 
 const Resume =()=> {
-
+    
   return (
     <>
         <Navbar />     
@@ -61,12 +62,11 @@ const Resume =()=> {
                 </div>
                 <CardActions>
                     <Button href={resume} target="_blank" rel="noreferrer" variant="outlined">SHOW RESUME</Button>
-                    {/* <Button href={resume} target="_blank" rel="noreferrer" variant="outlined">aaaa</Button> */}
+                    <Button href="https://github.com/Mstar0816" target="_blank" rel="noreferrer" variant="outlined">Github</Button>
                 </CardActions>
             </Card>
         </center>
     </>
   );
-}
-
+}   
 export default Resume;
