@@ -93,7 +93,7 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            <stack style={{gap: '50px'}}>
+            <div style={{gap: '50px'}}>
               <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/"><img src={logo} alt="logo(2)" style={{ height: '40px', width: '40px'}}/></Link></Button>
               <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/">Introduction</Link></Button>
               <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Career">Career</Link></Button>
@@ -101,7 +101,7 @@ export default function SearchAppBar() {
               <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Resume">Resume</Link></Button>
               <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Portfolio">Portfolio</Link></Button>
               <Button variant='text' style={{textDecoration: 'none'}}><Link to ="/Contact">Contact</Link></Button>
-            </stack>
+            </div>
           </Typography>
           <Search>
             <SearchIconWrapper>
