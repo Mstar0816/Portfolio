@@ -40,7 +40,7 @@ const Portfolio = () => {
                 {allImg.map((number) => (
                     <img
                         key={number}
-                        src={require(`../Assets/img (${number}).jpg`).default}
+                        src={require(`../Assets/img (${number}).jpg`)}
                         alt={`image${number}`}
                         width={'420px'}
                         height={'250px'}
@@ -50,7 +50,7 @@ const Portfolio = () => {
                 {hpImg.map((number) => (
                     <img
                         key={number}
-                        src={require(`../Assets/img (${number}).jpg`).default}
+                        src={require(`../Assets/img (${number}).jpg`)}
                         alt={`image${number}`}
                         width={'420px'}
                         height={'250px'}
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 {webImg.map((number) => (
                     <img
                         key={number}
-                        src={require(`../Assets/img (${number}).jpg`).default}
+                        src={require(`../Assets/img (${number}).jpg`)}
                         alt={`image${number}`}
                         width={'420px'}
                         height={'250px'}
@@ -70,7 +70,7 @@ const Portfolio = () => {
                 {appImg.map((number) => (
                     <img
                         key={number}
-                        src={require(`../Assets/img (${number}).jpg`).default}
+                        src={require(`../Assets/img (${number}).jpg`)}
                         alt={`image${number}`}
                         width={'420px'}
                         height={'250px'}
@@ -80,7 +80,7 @@ const Portfolio = () => {
                 {otherImg.map((number) => (
                     <img
                         key={number}
-                        src={require(`../Assets/img (${number}).jpg`).default}
+                        src={require(`../Assets/img (${number}).jpg`)}
                         alt={`image${number}`}
                         width={'420px'}
                         height={'250px'}
